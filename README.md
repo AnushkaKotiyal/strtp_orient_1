@@ -6,21 +6,21 @@ open 2 terminals in vs code or any other editor you'r comfortable with
 
 
 terminal 1 
--------------------------------------- cd./back
--------------------------------------- npm install express multer uuid body-parser cors path fs
--------------------------------------- node index.js
--------------------------------------- you will get your backend running 
+ cd./back
+ npm install express multer uuid body-parser cors path fs
+ node index.js
+ you will get your backend running 
 
 
 terminal 2
--------------------------------------- cd./front/frontend
--------------------------------------- npm i next 
--------------------------------------- npm run dev 
--------------------------------------- you will get your front end running
+ cd./front/frontend
+ npm i next 
+ npm run dev 
+ you will get your front end running
 
 
 
-----------------------------------go to postman --------------
+go to postman 
 
 1. create a post request - http://localhost:4000/uploads
 2. move to body
